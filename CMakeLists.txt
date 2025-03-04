@@ -9,4 +9,4 @@ add_executable(main main.cpp)
 
 # Add the main executable as a test
 enable_testing()
-add_test(NAME MainTest COMMAND main 1000000)
+add_test(NAME MainTest COMMAND main 1000000 1000)
