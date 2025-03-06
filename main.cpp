@@ -2,6 +2,8 @@
 #include <vector>
 #include <chrono>
 #include <random>
+#include <tuple>
+#include <format>
 
 int generateRandomNumber(int min, int max) {
     static std::random_device rd;
